@@ -11,7 +11,7 @@ Senior Machine Learning Engineer specializing in **model development, high-throu
 
 ```
 Core Specializations:
-  ├── Deep Learning Systems (Quantization INT4/INT8, Flash Softmax, Numerical Stability, GPU/CUDA)
+  ├── Deep Learning Systems (Quantization INT4/INT8, PEFT LoRA/QLoRA/(IA)³, Flash Softmax, GPU/CUDA)
   ├── Multimodal & Computer Vision (Dual-Stream 2D FFT Forensics, Video RAG, Temporal Grounding)
   ├── Agent & LLM Evaluation (Statistical Hypothesis Testing, McNemar/Permutation Tests, CI Gates)
   └── Quantitative Modeling & Data Pipelines (Walk-Forward Backtesting, High-Throughput SQLite/Parquet)
@@ -23,6 +23,7 @@ Core Specializations:
 
 | Repository | Domain & Architecture | Core Tech Stack | CI Status |
 | :--- | :--- | :--- | :---: |
+| **[multimodal-peft-adapter-engine](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine)** | Modular Parameter-Efficient Fine-Tuning (PEFT): LoRA ($W_0 + \frac{\alpha}{r}BA$), QLoRA (NF4 4-bit NormalFloat + double quantization), (IA)³ activation scaling (<0.15% params), benchmarked VLM backbone. | PyTorch, CUDA, PEFT, Streamlit | [![CI](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml) |
 | **[quant-ops-engine](https://github.com/zzzzzzzzak/quant-ops-engine)** | High-performance inference engine: INT4/INT8 bit-packing (7.47× compression), Flash Online Softmax, Chan-Golub-LeVeque LayerNorm, GradientHealthMonitor hooks. | PyTorch 2.5, CUDA, NumPy | [![CI](https://github.com/zzzzzzzzak/quant-ops-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/quant-ops-engine/actions/workflows/ci.yml) |
 | **[spatial-frequency-deepfake-detector](https://github.com/zzzzzzzzak/spatial-frequency-deepfake-detector)** | Dual-stream deepfake forensics: SE-ResNet spatial boundaries + 2D FFT azimuthal power spectrum decay ($1/f^\alpha$), cross-attention gating, Grad-CAM attribution, video EMA. | PyTorch, 2D FFT, OpenCV, Streamlit | [![CI](https://github.com/zzzzzzzzak/spatial-frequency-deepfake-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/spatial-frequency-deepfake-detector/actions/workflows/ci.yml) |
 | **[multimodal-temporal-video-rag](https://github.com/zzzzzzzzak/multimodal-temporal-video-rag)** | Dense video retrieval & temporal moment grounding: HSV/motion shot segmentation, contrastive dual-encoders, vector indexing, cross-modal attention re-ranking. | PyTorch, Vector Search, OpenCV, Streamlit | [![CI](https://github.com/zzzzzzzzak/multimodal-temporal-video-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/multimodal-temporal-video-rag/actions/workflows/ci.yml) |
@@ -38,6 +39,7 @@ Core Specializations:
 ```
 Machine Learning & Deep Learning:
   • Frameworks: PyTorch 2.x, TorchVision, Hugging Face Transformers, Scikit-learn
+  • Parameter-Efficient Fine-Tuning (PEFT): LoRA (Low-Rank Decomposition), QLoRA (NF4 Double Quantization), (IA)³
   • Architecture Design: Vision Transformers, ResNet/CNN, Cross-Attention, Multi-modal Encoders, Dual Streams
   • Numerical Optimization: INT8/INT4 Bit-Packing, Shifted Two-Pass LayerNorm (Chan-Golub-LeVeque), Flash Softmax
   • Explainability: Grad-CAM, 2D FFT Azimuthal Power Spectrum, Cross-Modal Attention Heatmaps
