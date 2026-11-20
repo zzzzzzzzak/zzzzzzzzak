@@ -1,7 +1,7 @@
 # Siddiqui Zakir Ali
 
 **Senior Machine Learning Engineer • Multimodal Systems • Numerical Computing**  
-📍 Global / Remote • [zak.siddiqui16@gmail.com](mailto:zak.siddiqui16@gmail.com) • [GitHub: @zzzzzzzzak](https://github.com/zzzzzzzzak)
+📍 Global / Remote • [zak.siddiqui16@gmail.com](mailto:zak.siddiqui16@gmail.com) • [GitHub: @zzzzzzzzak](https://github.com/zzzzzzzzak) • [Live Portfolio](https://zzzzzzzzak.github.io/portfolio/)
 
 ---
 
@@ -64,6 +64,8 @@ Data Engineering & Systems:
 
 ### Contact & Collaboration
 
+- **Interactive ML Portfolio**: [zzzzzzzzak.github.io/portfolio](https://zzzzzzzzak.github.io/portfolio/)
+- **Photography & Imaging**: [zzzzzzzzak.github.io](https://zzzzzzzzak.github.io/)
 - **Email**: [zak.siddiqui16@gmail.com](mailto:zak.siddiqui16@gmail.com)
 - **GitHub**: [github.com/zzzzzzzzak](https://github.com/zzzzzzzzak)
 - **Role Focus**: Senior ML Engineer • AI Research & Data Lab Contractor
