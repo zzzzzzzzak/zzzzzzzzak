@@ -25,6 +25,7 @@ Core Specializations:
 
 | Repository | Domain & Architecture | Core Tech Stack | CI Status |
 | :--- | :--- | :--- | :---: |
+| **[saas-clv-retention-dynamics](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics)** | SaaS customer economics engine: BG/NBD latent transaction rates, Gamma-Gamma spend shrinkage, first-order absorbing Markov multi-touch attribution (removal effects), and Kaplan-Meier cohort survival curves with Greenwood 95% CIs. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics/actions/workflows/ci.yml) |
 | **[causal-marketing-mix-modeling](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling)** | Production Causal Marketing Mix Modeling: Weibull lag adstock, Hill diminishing returns, Bayesian non-negative bounded ridge regression ($\beta_m \ge 0$), and SLSQP counterfactual budget reallocation with analytical gradients. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml) |
 | **[ab-testing-experimentation-platform](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform)** | Enterprise experimentation engine: CUPED variance reduction (41.5% sample savings), Wald's Sequential SPRT (6.3× peeking protection), Chi-square SRM diagnostic forensics, and Streamlit command center. | Python, Statsmodels, SciPy, Streamlit | [![CI](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform/actions/workflows/ci.yml) |
 | **[multimodal-peft-adapter-engine](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine)** | Modular Parameter-Efficient Fine-Tuning (PEFT): LoRA ($W_0 + \frac{\alpha}{r}BA$), QLoRA (NF4 4-bit NormalFloat + double quantization), (IA)³ activation scaling (<0.15% params), benchmarked VLM backbone. | PyTorch, CUDA, PEFT, Streamlit | [![CI](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml) |
@@ -49,6 +50,9 @@ Machine Learning & Deep Learning:
   • Explainability: Grad-CAM, 2D FFT Azimuthal Power Spectrum, Cross-Modal Attention Heatmaps
 
 Experimentation, Causal Inference & Decision Science:
+  • Customer Lifetime Value: BG/NBD Latent Transaction & Dropout, Gamma-Gamma Spend Shrinkage, Discounted Cash Flows
+  • Multi-Touch Attribution: First-Order Absorbing Markov Chains, Fundamental Matrix Removal Effects, Heuristic Audits
+  • Survival & Retention: Kaplan-Meier Product-Limit Estimator, Greenwood Log-Log Confidence Bands, Log-Rank Tests
   • Econometric MMM: Weibull Lagged Adstock (PDF/CDF), Hill Diminishing Saturation Curves, Non-Negative Priors ($\beta_m \ge 0$)
   • Budget Optimization: SLSQP Non-Linear Constrained Reallocation, KKT Marginal ROAS Equalization (+1.09% Rev Lift)
   • Variance Reduction: CUPED (Univariate & Multivariate Pre-Experiment Covariates, OLS Residualization)
