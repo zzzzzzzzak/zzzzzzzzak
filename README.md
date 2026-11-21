@@ -13,6 +13,7 @@ Senior Machine Learning Engineer specializing in **model development, high-throu
 Core Specializations:
   ├── Deep Learning Systems (Quantization INT4/INT8, PEFT LoRA/QLoRA/(IA)³, Flash Softmax, GPU/CUDA)
   ├── Multimodal & Computer Vision (Dual-Stream 2D FFT Forensics, Video RAG, Temporal Grounding)
+  ├── Marketplace & Platform Economics (Two-Sided Structural Elasticities, Dynamic Surge Pricing, Spatial Clearing)
   ├── Operations Research & Supply Chain (Multi-Echelon MEIO, Risk Pooling, Bullwhip Forensics, (s, S) Policies)
   ├── Econometrics & Marketing Mix Modeling (Weibull Adstock, Hill Saturation, SLSQP Counterfactual Reallocation)
   ├── Experimentation & Decision Science (CUPED Variance Reduction, Sequential SPRT, SRM Diagnostics)
@@ -26,6 +27,7 @@ Core Specializations:
 
 | Repository | Domain & Architecture | Core Tech Stack | CI Status |
 | :--- | :--- | :--- | :---: |
+| **[marketplace-liquidity-pricing-engine](https://github.com/zzzzzzzzak/marketplace-liquidity-pricing-engine)** | Two-sided platform economics: Structural rider & driver elasticities ($D(p), S(p)$), welfare-maximizing dynamic surge multiplier optimization, spatial zone liquidity matching, and +44.6% GMV counterfactual lift. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/marketplace-liquidity-pricing-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/marketplace-liquidity-pricing-engine/actions/workflows/ci.yml) |
 | **[supply-chain-inventory-optimizer](https://github.com/zzzzzzzzak/supply-chain-inventory-optimizer)** | Multi-echelon inventory optimization (MEIO): Multi-tier risk pooling across DC, Hub, and Retail tiers, stochastic lead-time safety stock ($z_\alpha \sigma_{\text{LTD}}$), (s, S) continuous review policies, and Bullwhip forensics. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/supply-chain-inventory-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/supply-chain-inventory-optimizer/actions/workflows/ci.yml) |
 | **[saas-clv-retention-dynamics](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics)** | SaaS customer economics engine: BG/NBD latent transaction rates, Gamma-Gamma spend shrinkage, first-order absorbing Markov multi-touch attribution (removal effects), and Kaplan-Meier cohort survival curves with Greenwood 95% CIs. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/saas-clv-retention-dynamics/actions/workflows/ci.yml) |
 | **[causal-marketing-mix-modeling](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling)** | Production Causal Marketing Mix Modeling: Weibull lag adstock, Hill diminishing returns, Bayesian non-negative bounded ridge regression ($\beta_m \ge 0$), and SLSQP counterfactual budget reallocation with analytical gradients. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml) |
@@ -71,6 +73,12 @@ Evaluation & MLOps Infrastructure:
   • Frontier Agent Evals: Multi-turn Tool Trajectory F1, Sandboxed Code Execution, Anti-Hallucination Grounding
   • Statistical Rigor: Paired Permutation Tests, McNemar Significance Tests, Bootstrap 95% Confidence Intervals
   • CI/CD Automation: GitHub Actions workflows, automated regression gates, reproducible Pytest test suites
+
+Marketplace Economics & Dynamic Pricing:
+  • Structural Elasticities: Rider Price Decay Curves ($D_0 e^{-\epsilon_D (p-1)}$), Driver Recruitment ($S_0 (1 + \epsilon_S (p-1))$)
+  • Dynamic Pricing: Welfare-Maximizing Non-Linear Surge Solvers, Regulatory Multiplier Caps, Price Gouging Protection
+  • Spatial Liquidity: 24-Hour Diurnal Dispatch Simulation, Shock Event Forensics (Rainstorms, Morning/Evening Commutes)
+  • Platform Economics: 75/25 Driver-Platform Revenue Splitting, Consumer Surplus Trade-Offs, Counterfactual GMV Lift (+44.6%)
 
 Operations Research & Supply Chain Analytics:
   • Multi-Echelon Optimization: Multi-Tier Risk Pooling, Installation vs. Echelon Safety Stock, Capital Reduction
