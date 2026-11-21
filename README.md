@@ -13,6 +13,7 @@ Senior Machine Learning Engineer specializing in **model development, high-throu
 Core Specializations:
   ├── Deep Learning Systems (Quantization INT4/INT8, PEFT LoRA/QLoRA/(IA)³, Flash Softmax, GPU/CUDA)
   ├── Multimodal & Computer Vision (Dual-Stream 2D FFT Forensics, Video RAG, Temporal Grounding)
+  ├── Econometrics & Marketing Mix Modeling (Weibull Adstock, Hill Saturation, SLSQP Counterfactual Reallocation)
   ├── Experimentation & Decision Science (CUPED Variance Reduction, Sequential SPRT, SRM Diagnostics)
   ├── Agent & LLM Evaluation (Statistical Hypothesis Testing, McNemar/Permutation Tests, CI Gates)
   └── Quantitative Modeling & Data Pipelines (Walk-Forward Backtesting, High-Throughput SQLite/Parquet)
@@ -24,6 +25,7 @@ Core Specializations:
 
 | Repository | Domain & Architecture | Core Tech Stack | CI Status |
 | :--- | :--- | :--- | :---: |
+| **[causal-marketing-mix-modeling](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling)** | Production Causal Marketing Mix Modeling: Weibull lag adstock, Hill diminishing returns, Bayesian non-negative bounded ridge regression ($\beta_m \ge 0$), and SLSQP counterfactual budget reallocation with analytical gradients. | Python, SciPy, Statsmodels, Streamlit | [![CI](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/causal-marketing-mix-modeling/actions/workflows/ci.yml) |
 | **[ab-testing-experimentation-platform](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform)** | Enterprise experimentation engine: CUPED variance reduction (41.5% sample savings), Wald's Sequential SPRT (6.3× peeking protection), Chi-square SRM diagnostic forensics, and Streamlit command center. | Python, Statsmodels, SciPy, Streamlit | [![CI](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/ab-testing-experimentation-platform/actions/workflows/ci.yml) |
 | **[multimodal-peft-adapter-engine](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine)** | Modular Parameter-Efficient Fine-Tuning (PEFT): LoRA ($W_0 + \frac{\alpha}{r}BA$), QLoRA (NF4 4-bit NormalFloat + double quantization), (IA)³ activation scaling (<0.15% params), benchmarked VLM backbone. | PyTorch, CUDA, PEFT, Streamlit | [![CI](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/multimodal-peft-adapter-engine/actions/workflows/ci.yml) |
 | **[quant-ops-engine](https://github.com/zzzzzzzzak/quant-ops-engine)** | High-performance inference engine: INT4/INT8 bit-packing (7.47× compression), Flash Online Softmax, Chan-Golub-LeVeque LayerNorm, GradientHealthMonitor hooks. | PyTorch 2.5, CUDA, NumPy | [![CI](https://github.com/zzzzzzzzak/quant-ops-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/zzzzzzzzak/quant-ops-engine/actions/workflows/ci.yml) |
@@ -47,6 +49,8 @@ Machine Learning & Deep Learning:
   • Explainability: Grad-CAM, 2D FFT Azimuthal Power Spectrum, Cross-Modal Attention Heatmaps
 
 Experimentation, Causal Inference & Decision Science:
+  • Econometric MMM: Weibull Lagged Adstock (PDF/CDF), Hill Diminishing Saturation Curves, Non-Negative Priors ($\beta_m \ge 0$)
+  • Budget Optimization: SLSQP Non-Linear Constrained Reallocation, KKT Marginal ROAS Equalization (+1.09% Rev Lift)
   • Variance Reduction: CUPED (Univariate & Multivariate Pre-Experiment Covariates, OLS Residualization)
   • Continuous Monitoring: Wald's Sequential Probability Ratio Test (SPRT), Alpha-Spending Boundaries
   • Quality & Diagnostics: Sample Ratio Mismatch (SRM) Chi-Square Diagnostics, Multi-Dimensional Slicing
